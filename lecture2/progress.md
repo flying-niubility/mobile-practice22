@@ -1,7 +1,7 @@
 # 进度报告2（第4周 · Dart 语言基础一）
 
 > 仓库：https://github.com/flying-niubility/mobile-practice22
-> 工程：`lecture2/dart_basics`
+> 工程：`dart_basics`
 
 ## 一、任务理解
 

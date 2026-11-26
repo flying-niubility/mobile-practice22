@@ -7,26 +7,26 @@
 ```
 mobile-practice22/
 ├── README.md
-└── lecture2/
-    ├── progress.md            # 进度报告二全文
-    ├── ai_quiz_round1.md      # TraeCode 对拍练习记录（5 题）
-    └── dart_basics/           # 课堂案例复现工程
-        ├── bin/
-        │   ├── dart_basics.dart      # 入口：依次运行四组示例
-        │   ├── types_demo.dart       # 变量、插值、空安全四件套
-        │   ├── func_demo.dart        # 箭头函数、位置可选参数、命名参数
-        │   ├── flow_demo.dart        # 运算符、分支、循环、switch
-        │   ├── safety_refactor.dart  # 作业1：空安全改写前后对照
-        │   ├── report_generator.dart # 作业2：实验报告生成器命名参数
-        │   └── grade.dart            # 作业3：成绩分级器边界与非法输入
-        ├── lib/dart_basics.dart      # 被 bin 与 test 共用的函数
-        └── test/dart_basics_test.dart
+├── lecture2/
+│   ├── progress.md            # 进度报告二全文
+│   └── ai_quiz_round1.md      # TraeCode 对拍练习记录（5 题）
+└── dart_basics/               # 课堂案例复现工程
+    ├── bin/
+    │   ├── dart_basics.dart      # 入口：依次运行四组示例
+    │   ├── types_demo.dart       # 变量、插值、空安全四件套
+    │   ├── func_demo.dart        # 箭头函数、位置可选参数、命名参数
+    │   ├── flow_demo.dart        # 运算符、分支、循环、switch
+    │   ├── safety_refactor.dart  # 作业1：空安全改写前后对照
+    │   ├── report_generator.dart # 作业2：实验报告生成器命名参数
+    │   └── grade.dart            # 作业3：成绩分级器边界与非法输入
+    ├── lib/dart_basics.dart      # 被 bin 与 test 共用的函数
+    └── test/dart_basics_test.dart
 ```
 
 ## 运行方式
 
 ```bash
-cd lecture2/dart_basics
+cd dart_basics
 dart pub get
 dart run                              # 四组示例
 dart run bin/safety_refactor.dart     # 作业1
