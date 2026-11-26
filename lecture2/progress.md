@@ -203,9 +203,11 @@ $ dart test
 1. 示例合集入口运行：`dart run` 输出四组示例，末尾打印“全部示例执行完毕。”
 2. 静态检查：`dart analyze` → `No issues found!`
 3. 单元测试：`dart test` → `00:00 +5: All tests passed!`
-4. Git 提交记录：
+4. Git 提交记录（节选）：
 
 ```
+a09c0fe docs: align repository structure description
+0452d49 docs: progress report 2
 dce0da7 docs: ai quiz round 1 records
 f28c7e7 feat: dart create dart_basics with types/func/flow demos
 04ce8d2 chore: init mobile-practice22 repository
@@ -219,7 +221,7 @@ f28c7e7 feat: dart create dart_basics with types/func/flow demos
 | --- | --- | --- |
 | dart_basics 完整复现（15） | 完成 | 三组示例 + 入口统一调用，输出完整 |
 | 检查点（5） | 完成 | `dart run` 正确、`dart analyze` 无告警、能解释 `??` 与 `!` |
-| Git 规范（5） | 完成 | 4 次提交，提交信息使用 feat/docs/chore 前缀 |
+| Git 规范（5） | 完成 | 多次提交（不少于 5 次），提交信息使用 feat/docs/chore 前缀 |
 | 报告记录（5） | 完成 | 十节齐全，含代码、证据、调试与 AI 记录 |
 | 空安全改写 | 完成 | 5 处改写，前后对照 + 逐处解释 |
 | 命名参数设计 | 完成 | 6 个参数（2 必填 + 默认值 + 可空 + 开关），三种调用 |
